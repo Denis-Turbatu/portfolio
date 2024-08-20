@@ -58,7 +58,7 @@
         <div v-for="(project, index) in projects" :key="project.name"
             class="flex-center flex-col border-raisin dark:border-platinum border-2 rounded-lg shadow w-full lg:flex-row mx-auto hover:bg-slate-40 my-3">
             <div class="w-full md:w-12/12 lg:w-6/12 rounded-lg">
-                <img class="object-fill object-center w-full rounded-t-md size-60 md:w-full h-96"
+                <img class="object-cover object-center w-full rounded-t-md size-60 md:w-full h-96"
                     :src="getImageUrl(project.path_img)" :alt="project.path_img" />
             </div>
 
