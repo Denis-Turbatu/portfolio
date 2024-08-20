@@ -1,0 +1,16 @@
+.flex-center {
+    @apply flex justify-center items-center;
+}
+
+:root {
+  --border-color-light: #e5e6e8; /* Platinum */
+  --border-color-dark: #111111; /* Raisin */
+}
+
+.dark {
+  --border-color: var(--border-color-dark);
+}
+
+.light {
+  --border-color: var(--border-color-light);
+}
