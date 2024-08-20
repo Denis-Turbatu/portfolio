@@ -3,7 +3,7 @@
     export default {
         data() {
             return {
-                texts: ["Denis Turbatu", "Jr Full Stack Developer"], // Assicurati che l'array sia definito qui
+                texts: ["Denis Turbatu", "Jr Full Stack Developer"],
                 currentIndex: 0,
             };
         },
@@ -15,7 +15,7 @@
                 if (this.texts && this.texts.length > 0) {
                     setInterval(() => {
                         this.currentIndex = (this.currentIndex + 1) % this.texts.length;
-                    }, 4000); // Cambia testo ogni 4 secondi
+                    }, 4000);
                 }
             },
         },
