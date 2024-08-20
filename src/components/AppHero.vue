@@ -39,7 +39,7 @@
                 forte determinazione a risolvere problemi. Ogni sfida è un'opportunità per crescere e affinare le mie
                 competenze. Se c'è un ostacolo, trovo il modo di superarlo. Esplora il mio portfolio per scoprire come
                 trasformo la mia passione in progetti concreti.</p>
-            <div class="space-x-4">
+            <div class="flex flex-col md:flex-row gap-2 max-w-max">
                 <a class="font-sans text-lg font-semibold py-2 px-4 bg-raisin text-platinum dark:bg-platinum dark:text-raisin rounded-md transition duration-500 ease-in-out hover:bg-gradient-to-br hover:from-ceris hover:via-orange hover:to-lavanda dark:hover:text-platinum hover:text-raisin"
                     href="/DENIS_TURBATU_CV.pdf" download id="CV" alt="Curriculum Vitae">Scarica il
                     CV</a>
