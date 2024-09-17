@@ -29,35 +29,41 @@
       <AppHeader />
     </div>
 
-    <!-- hero -->
-    <div>
-      <AppHero id="Chi sono" />
-    </div>
+    <!-- Contenuto condizionale basato sulla rotta -->
+    <template v-if="$route.name === 'Home'">
+      <!-- hero -->
+      <div>
+        <AppHero id="Chi sono" />
+      </div>
 
-    <!-- informazioni personali -->
-    <div class="container">
-      <AppAboutMe />
-    </div>
+      <!-- informazioni personali -->
+      <div class="container">
+        <AppAboutMe />
+      </div>
 
-    <!-- esperienze e formazione -->
-    <div class="container">
-      <AppExperience />
-    </div>
+      <!-- esperienze e formazione -->
+      <div class="container">
+        <AppExperience />
+      </div>
 
-    <!-- competenze swiper -->
-    <div id="competenze" class="bg-stone-300 dark:bg-[#212121]">
-      <AppSwiperCopetence />
-    </div>
+      <!-- competenze swiper -->
+      <div id="competenze" class="bg-stone-300 dark:bg-[#212121]">
+        <AppSwiperCopetence />
+      </div>
 
-    <!-- progetti -->
-    <div class="container">
-      <AppProjects id="Progetti" />
-    </div>
+      <!-- progetti -->
+      <div class="container">
+        <AppProjects id="Progetti" />
+      </div>
 
-    <!-- CTA -->
-    <div class="container">
-      <AppCTA id="Contattami"/>
-    </div>
+      <!-- CTA -->
+      <div class="container">
+        <AppCTA id="Contattami"/>
+      </div>
+    </template>
+
+    <!-- Router view per i dettagli del progetto -->
+    <router-view v-else></router-view>
   </div>
 </template>
 

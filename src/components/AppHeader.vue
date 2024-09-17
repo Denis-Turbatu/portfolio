@@ -53,7 +53,7 @@
             scrollToSection(event, id) {
                 event.preventDefault();
                 const target = document.getElementById(id);
-                const offset = 120;
+                const offset = 150;
                 const elementPosition = target.getBoundingClientRect().top;
                 const offsetPosition = elementPosition - offset;
 

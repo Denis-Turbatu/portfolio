@@ -19,7 +19,8 @@
     "flowbite": "^2.5.1",
     "sass": "^1.77.8",
     "swiper": "^11.1.9",
-    "vue": "^3.4.29"
+    "vue": "^3.4.29",
+    "vue-router": "^4.4.5"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",
